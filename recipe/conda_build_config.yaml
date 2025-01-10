@@ -1,4 +1,4 @@
-c_compiler_version:  # [linux]
-- '9'               # [linux]
-c_compiler_version:  # [linux]
-- '9'               # [linux]
+c_compiler_version:    # [linux]
+- '10'                 # [linux]
+cxx_compiler_version:  # [linux]
+- '10'                 # [linux]
