@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/ignitionrobotics/ign-rendering/archive/ignition-rendering{{ version }}.tar.gz
-  sha256: 3af99937aada73f018658e0103988dad0038bf0a3efee1af1d0c8b489d7a6d0e
+  sha256: a5bd7959ceafa31819d0889ef4d0375d6882336106df9fcf3ab2341a3b34b9c2
 
 build:
   number: 0
@@ -21,6 +21,7 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - {{ compiler('c') }}
+    - {{ stdlib('c') }}
     - cmake
     - make                               # [not win]
     - pkg-config                         # [not win]
